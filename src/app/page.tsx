@@ -49,8 +49,8 @@ export default function Home() {
               AI governance has become a revenue problem
             </h2>
             <p className="mt-4 text-xl text-gray-600">
-              Companies don't fail audits because they lack policies. They fail because information doesn't flow, 
-              responsibilities aren't clear, and risks aren't detected early.
+              Companies don&apos;t fail audits because they lack policies. They fail because information doesn&apos;t flow, 
+              responsibilities aren&apos;t clear, and risks aren&apos;t detected early.
             </p>
           </div>
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">

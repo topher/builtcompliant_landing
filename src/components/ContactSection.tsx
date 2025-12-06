@@ -32,7 +32,7 @@ export default function ContactSection() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
               <h3 className="text-lg font-semibold">Thank you for your interest!</h3>
-              <p className="mt-2">We'll get back to you within 24 hours to discuss how we can help transform your AI governance.</p>
+              <p className="mt-2">We&apos;ll get back to you within 24 hours to discuss how we can help transform your AI governance.</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function ContactSection() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900">Ready to Get Started?</h2>
             <p className="mt-4 text-xl text-gray-600">
-              Before procurement or due diligence slows deals, let's build the governance system your buyers expect.
+              Before procurement or due diligence slows deals, let&apos;s build the governance system your buyers expect.
             </p>
           </div>
           
