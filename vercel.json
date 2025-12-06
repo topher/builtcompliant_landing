@@ -1,8 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "domains": ["builtcompliant.ai", "www.builtcompliant.ai"],
   "redirects": [
     {
       "source": "/www/(.*)",
