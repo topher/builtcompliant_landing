@@ -1,4 +1,5 @@
 import ContactSection from '@/components/ContactSection';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,7 +9,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-900">Built Compliant ✓</h1>
+              <Image 
+                src="/bc-logo.svg" 
+                alt="Built Compliant" 
+                width={60} 
+                height={60}
+                priority
+                className="h-12 w-12"
+              />
+              <span className="ml-3 text-xl font-semibold text-blue-900">Built Compliant</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-gray-600 hover:text-blue-900">Services</a>
@@ -21,21 +30,36 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-              Governance That <span className="text-blue-600">Closes Deals</span>
-            </h1>
-            <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
-              We help AI companies design governance systems that actually work in practice — 
-              systems that scale with complexity, support innovation, and unlock revenue by passing procurement and due diligence.
-            </p>
-            <div className="mt-10">
-              <a
-                href="#contact"
-                className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
-              >
-                Get Started Today
-              </a>
+          <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
+                Governance That <span className="text-blue-600">Closes Deals</span>
+              </h1>
+              <p className="mt-6 text-xl text-gray-600">
+                We help AI companies design governance systems that actually work in practice — 
+                systems that scale with complexity, support innovation, and unlock revenue by passing procurement and due diligence.
+              </p>
+              <div className="mt-10">
+                <a
+                  href="#contact"
+                  className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+                >
+                  Get Started Today
+                </a>
+              </div>
+            </div>
+            <div className="mt-12 lg:mt-0 flex justify-center">
+              <div className="relative">
+                <Image
+                  src="/hero-photo.jpeg"
+                  alt="Professional founder in modern office setting"
+                  width={400}
+                  height={400}
+                  className="rounded-lg shadow-xl"
+                  priority
+                />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-blue-600/20 to-transparent"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -165,12 +189,21 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-2xl font-bold">Built Compliant ✓</h2>
+            <div className="flex justify-center items-center mb-4">
+              <Image 
+                src="/bc-logo.svg" 
+                alt="Built Compliant" 
+                width={40} 
+                height={40}
+                className="h-8 w-8 invert"
+              />
+              <h2 className="ml-3 text-2xl font-bold">Built Compliant</h2>
+            </div>
             <p className="mt-4 text-gray-400">
               Governance That Scales With You
             </p>
             <div className="mt-6 text-sm text-gray-500">
-              © 2024 Built Compliant ✓. All rights reserved.
+              © 2024 Built Compliant. All rights reserved.
             </div>
           </div>
         </div>
