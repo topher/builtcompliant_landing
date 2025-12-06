@@ -44,17 +44,14 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-12 lg:mt-0 flex justify-center">
-              <div className="relative">
-                <Image
-                  src="/hero-photo.jpeg"
-                  alt="Professional founder in modern office setting"
-                  width={400}
-                  height={400}
-                  className="rounded-lg shadow-xl"
-                  priority
-                />
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-blue-600/20 to-transparent"></div>
-              </div>
+              <Image
+                src="/hero-photo.jpeg"
+                alt="Professional founder in modern office setting"
+                width={400}
+                height={400}
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>

@@ -36,17 +36,14 @@ export default function About() {
               </p>
             </div>
             <div className="mt-12 lg:mt-0 flex justify-center">
-              <div className="relative">
-                <Image
-                  src="/about-photo.jpeg"
-                  alt="Founder seated in modern office setting"
-                  width={500}
-                  height={500}
-                  className="rounded-lg shadow-xl"
-                  priority
-                />
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-blue-600/10 to-transparent"></div>
-              </div>
+              <Image
+                src="/about-photo.jpeg"
+                alt="Founder seated in modern office setting"
+                width={450}
+                height={450}
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
