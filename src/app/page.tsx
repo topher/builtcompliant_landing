@@ -9,17 +9,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <Image 
-                src="/bc-logo.svg" 
-                alt="Built Compliant" 
-                width={60} 
-                height={60}
-                priority
-                className="h-12 w-12"
-              />
-              <span className="ml-3 text-xl font-semibold text-blue-900">Built Compliant</span>
+              <h1 className="text-2xl font-bold text-blue-900" style={{color: '#1A365D'}}>
+                Built Compliant <span style={{color: '#003399'}}>✓</span>
+              </h1>
             </div>
             <nav className="hidden md:flex space-x-8">
+              <a href="/about" className="text-gray-600 hover:text-blue-900">About</a>
               <a href="#services" className="text-gray-600 hover:text-blue-900">Services</a>
               <a href="#contact" className="text-gray-600 hover:text-blue-900">Contact</a>
             </nav>
