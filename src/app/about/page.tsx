@@ -8,7 +8,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-900" style={{color: '#1A365D'}}>
+              <h1 className="text-2xl font-bold" style={{color: '#1A365D'}}>
                 Built Compliant <span style={{color: '#003399'}}>✓</span>
               </h1>
             </div>

@@ -9,7 +9,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-900" style={{color: '#1A365D'}}>
+              <h1 className="text-2xl font-bold" style={{color: '#1A365D'}}>
                 Built Compliant <span style={{color: '#003399'}}>✓</span>
               </h1>
             </div>
@@ -22,15 +22,16 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section - Golden Ratio Layout */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="text-center lg:text-left">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Left Side - Left Aligned Content */}
+            <div className="flex flex-col justify-center text-left">
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
                 Governance That <span className="text-blue-600">Closes Deals</span>
               </h1>
-              <p className="mt-6 text-xl text-gray-600">
+              <p className="mt-6 text-xl text-gray-600 leading-relaxed">
                 We help AI companies design governance systems that actually work in practice — 
                 systems that scale with complexity, support innovation, and unlock revenue by passing procurement and due diligence.
               </p>
@@ -43,16 +44,42 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="mt-12 lg:mt-0 flex justify-center">
+            
+            {/* Right Side - Square Photo with Slight Rounded Corners */}
+            <div className="flex justify-center lg:justify-end items-center">
               <Image
                 src="/hero-photo.jpeg"
-                alt="Professional founder in modern office setting"
-                width={400}
-                height={400}
-                className="object-cover"
+                alt="Professional founder"
+                width={450}
+                height={450}
+                className="object-cover rounded-lg"
                 priority
               />
             </div>
+            
+            {/* 
+            ALTERNATIVE CUTOUT VERSION - Replace above photo section with this for cutout effect:
+            
+            <div className="relative flex justify-end items-end">
+              <div className="absolute bottom-0 right-0">
+                <Image
+                  src="/hero-cutout.png"
+                  alt="Professional founder"
+                  width={480}
+                  height={640}
+                  className="object-contain object-bottom"
+                  priority
+                />
+              </div>
+            </div>
+            
+            Benefits of cutout version:
+            - Eliminates "floating torso syndrome" 
+            - Photo anchored to section bottom
+            - More editorial/magazine feel
+            - No borders or frames needed
+            - Professional cutout with transparent background
+            */}
           </div>
         </div>
       </section>
