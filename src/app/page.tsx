@@ -32,15 +32,18 @@ export default function Home() {
                 Governance That <span className="text-blue-600">Closes Deals</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-                We help AI companies design governance systems that actually work in practice — 
-                systems that scale with complexity, support innovation, and unlock revenue by passing procurement and due diligence.
+                We help AI companies pass procurement and due diligence — so deals don&apos;t stall and raises don&apos;t slip.
+              </p>
+              <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+                Most AI startups hit governance questions they can&apos;t answer.<br/>
+                <strong>We build the systems that produce answers.</strong>
               </p>
               <div className="mt-10">
                 <a
                   href="#contact"
                   className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                 >
-                  Get Started Today
+                  Let&apos;s Talk →
                 </a>
               </div>
             </div>
@@ -89,113 +92,178 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900">
-              AI governance has become a revenue problem
+              AI governance has become a revenue problem.
             </h2>
-            <p className="mt-4 text-xl text-gray-600">
-              Companies don&apos;t fail audits because they lack policies. They fail because information doesn&apos;t flow, 
-              responsibilities aren&apos;t clear, and risks aren&apos;t detected early.
-            </p>
-          </div>
-          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto bg-red-100 rounded-lg">
-                <span className="text-red-600 font-bold">🚫</span>
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Procurement Roadblocks</h3>
-              <p className="mt-2 text-gray-600">
-                Buyers demand model cards, risk assessments, and transparency notes before closing deals
+            <div className="mt-8 max-w-4xl mx-auto text-left space-y-4">
+              <p className="text-lg text-gray-700">
+                Enterprise buyers now require <strong>model cards, transparency notes, and risk documentation</strong> before they&apos;ll move forward.
+              </p>
+              <p className="text-lg text-gray-700">
+                Investors expect <strong>governance maturity</strong> as part of due diligence.
+              </p>
+              <p className="text-lg text-gray-700">
+                Regulations like <strong>Colorado SB 24-205</strong> and <strong>NYC Local Law 144</strong> are already in effect.
+              </p>
+              <p className="text-lg text-gray-700">
+                And most AI companies aren&apos;t set up to respond.
               </p>
             </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto bg-red-100 rounded-lg">
-                <span className="text-red-600 font-bold">💰</span>
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Due Diligence Pressure</h3>
-              <p className="mt-2 text-gray-600">
-                VCs ask for governance systems and audit readiness, freezing or delaying funding
+            <div className="mt-8 p-6 bg-red-50 rounded-lg max-w-2xl mx-auto">
+              <p className="text-xl font-semibold text-red-900">
+                The result?
               </p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto bg-red-100 rounded-lg">
-                <span className="text-red-600 font-bold">📋</span>
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">State-Level Regulation</h3>
-              <p className="mt-2 text-gray-600">
-                Colorado SB 24-205 and similar laws require documentation and oversight now
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto bg-red-100 rounded-lg">
-                <span className="text-red-600 font-bold">🔒</span>
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Trust Barriers</h3>
-              <p className="mt-2 text-gray-600">
-                Enterprise risk teams want evidence, not claims. Transparency builds trust and credibility
+              <p className="text-lg text-red-800 mt-2">
+                <strong>Deals slip. Raises drag. Teams scramble to produce documentation that should already exist.</strong>
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Solution Section */}
+      {/* What We Do Section */}
       <section id="services" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900">
-              Governance as a <span className="text-blue-600">Living Operating System</span>
+              We build governance systems that actually work.
             </h2>
-            <p className="mt-4 text-xl text-gray-600">
-              We architect risk sensing, decision pathways, and coordination systems that adapt with your business.
+            <div className="mt-8 max-w-4xl mx-auto">
+              <p className="text-lg text-gray-700 mb-6">
+                Not binders of policies.<br/>
+                Not legal memos.
+              </p>
+              <p className="text-xl font-semibold text-gray-900 mb-8">
+                <strong>Operational systems</strong> that:
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2 max-w-5xl mx-auto">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                <span className="text-white text-sm">✓</span>
+              </div>
+              <p className="text-lg text-gray-700">
+                Give your <strong>sales team</strong> the answers procurement needs
+              </p>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                <span className="text-white text-sm">✓</span>
+              </div>
+              <p className="text-lg text-gray-700">
+                Give <strong>investors</strong> the documentation they expect in diligence
+              </p>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                <span className="text-white text-sm">✓</span>
+              </div>
+              <p className="text-lg text-gray-700">
+                Give <strong>engineering</strong> clear requirements instead of vague compliance asks
+              </p>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                <span className="text-white text-sm">✓</span>
+              </div>
+              <p className="text-lg text-gray-700">
+                Give <strong>leadership</strong> visibility into AI risk across the org
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-12 text-center">
+            <p className="text-xl font-semibold text-blue-900">
+              <strong>One system. Multiple outcomes: faster deals, smoother raises, less regulatory scramble.</strong>
             </p>
           </div>
-          <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
-            {/* Tier 1 */}
-            <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold text-blue-900">The Compliance Reality Check™</h3>
-              <p className="mt-2 text-blue-600 font-medium">€3,000 – €7,500 fixed</p>
-              <p className="mt-4 text-gray-700">
-                Fast diagnostic identifying procurement blockers, due diligence risks, and missing documentation.
-                Artifact-heavy. Actionable. Fast.
-              </p>
-              <ul className="mt-4 space-y-2 text-sm text-gray-600">
-                <li>• Procurement blocker analysis</li>
-                <li>• Due diligence risk assessment</li>
-                <li>• Documentation gap analysis</li>
-                <li>• Model transparency audit</li>
-              </ul>
-            </div>
+        </div>
+      </section>
 
-            {/* Tier 2 */}
-            <div className="bg-green-50 p-8 rounded-lg border-2 border-green-200">
-              <div className="flex items-center">
-                <h3 className="text-xl font-semibold text-green-900">Legal-to-Engineering Translation™</h3>
-                <span className="ml-2 bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded">POPULAR</span>
+      {/* How We Work Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              How We Work
+            </h2>
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto mb-12">
+              Every engagement starts with a <strong>Governance Diagnostic</strong> — a fast assessment of where friction is slowing deals, fundraising, or product velocity.
+            </p>
+            <p className="text-lg text-gray-600 mb-12">
+              From there, we scope only what you actually need:
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">• Procurement Readiness</h3>
+              <p className="text-gray-700">
+                Model cards, transparency notes, and support for enterprise questionnaires.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">• Due Diligence Prep</h3>
+              <p className="text-gray-700">
+                Documentation and controls that survive investor scrutiny.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">• Engineering Translation</h3>
+              <p className="text-gray-700">
+                Turning legal and regulatory requirements into product specs your team can build against.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">• Governance System Design</h3>
+              <p className="text-gray-700">
+                Clear decision routing, oversight structures, and risk coordination.
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-12 text-center">
+            <p className="text-lg text-gray-600 mb-8">
+              Engagements range from <strong>quick assessments</strong> to <strong>ongoing advisory</strong>, depending on your stage and complexity.
+            </p>
+            <a
+              href="#contact"
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+            >
+              Book a 15-Minute Call →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Who This Is For Section */}
+      <section className="py-16 bg-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-12">
+              Who This Is For
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-3 h-3 bg-blue-600 rounded-full"></div>
+                <p className="text-lg text-gray-700">AI startups selling into enterprise</p>
               </div>
-              <p className="mt-2 text-green-600 font-medium">€12,000 – €20,000/month</p>
-              <p className="mt-4 text-gray-700">
-                Convert laws, standards, and buyer requirements into engineering-ready tasks and product requirements.
-              </p>
-              <ul className="mt-4 space-y-2 text-sm text-gray-600">
-                <li>• Engineering acceptance criteria</li>
-                <li>• Lifecycle controls & pipelines</li>
-                <li>• Model cards & transparency packs</li>
-                <li>• Cross-functional coordination</li>
-              </ul>
-            </div>
-
-            {/* Tier 3 */}
-            <div className="bg-purple-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold text-purple-900">Adaptive Governance Operating System™</h3>
-              <p className="mt-2 text-purple-600 font-medium">€25,000 – €50,000/month</p>
-              <p className="mt-4 text-gray-700">
-                Complete organizational redesign with sensing loops, decision pathways, and adaptive governance structures.
-              </p>
-              <ul className="mt-4 space-y-2 text-sm text-gray-600">
-                <li>• Organizational sensing loops</li>
-                <li>• Decision & escalation systems</li>
-                <li>• Risk intelligence flows</li>
-                <li>• Product-integrated governance</li>
-              </ul>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-3 h-3 bg-blue-600 rounded-full"></div>
+                <p className="text-lg text-gray-700">Companies preparing for Series A+ fundraising</p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-3 h-3 bg-blue-600 rounded-full"></div>
+                <p className="text-lg text-gray-700">Teams adding AI capabilities to existing products</p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-3 h-3 bg-blue-600 rounded-full"></div>
+                <p className="text-lg text-gray-700">Anyone facing governance questions they can&apos;t yet answer</p>
+              </div>
             </div>
           </div>
         </div>
@@ -219,10 +287,26 @@ export default function Home() {
               <h2 className="ml-3 text-2xl font-bold">Built Compliant</h2>
             </div>
             <p className="mt-4 text-gray-400">
-              Governance That Scales With You
+              Governance That Closes Deals
             </p>
+            <div className="mt-6 flex justify-center space-x-6">
+              <a 
+                href="https://www.linkedin.com/in/cafwilliams/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a 
+                href="mailto:hello@builtcompliant.ai" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Email
+              </a>
+            </div>
             <div className="mt-6 text-sm text-gray-500">
-              © 2024 Built Compliant. All rights reserved.
+              © 2025 Built Compliant. All rights reserved.
             </div>
           </div>
         </div>
