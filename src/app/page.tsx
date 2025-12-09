@@ -9,11 +9,10 @@ export default function Home() {
       <header className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center gap-2.5">
-              <div className="w-5 h-5 bg-blue-700 rounded-sm"></div>
-              <span className="text-lg font-semibold tracking-tight text-slate-900">
-                Built Compliant
-              </span>
+            <div className="flex items-center">
+              <h1 className="text-2xl font-bold" style={{color: '#1A365D'}}>
+                Built Compliant <span style={{color: '#003399'}}>✓</span>
+              </h1>
             </div>
             
             <nav className="hidden md:flex space-x-10 text-sm font-medium">
@@ -326,9 +325,10 @@ export default function Home() {
       {/* Footer - Minimalist */}
       <footer className="bg-white border-t border-slate-100 py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2">
-            <div className="w-4 h-4 bg-slate-900 rounded-sm"></div>
-            <span className="font-semibold text-slate-900 tracking-tight">Built Compliant</span>
+          <div className="flex items-center">
+            <span className="text-xl font-bold" style={{color: '#1A365D'}}>
+              Built Compliant <span style={{color: '#003399'}}>✓</span>
+            </span>
           </div>
           <div className="text-sm text-slate-400">
             © 2025 Built Compliant. All rights reserved.
