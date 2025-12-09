@@ -170,10 +170,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="max-w-2xl mb-20">
               <h2 className="text-4xl font-bold tracking-tight text-slate-900 mb-6">
-                Built by operators. <br/>Not just lawyers.
+                What We Build
               </h2>
               <p className="text-xl text-slate-500 font-light">
-                We build the infrastructure that turns governance into a sales enabler.
+                Governance systems that engineering teams can actually implement.
               </p>
             </div>
 
@@ -204,7 +204,7 @@ export default function Home() {
                  <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center mb-8 text-blue-600 group-hover:scale-105 transition-transform">
                     <Settings className="w-6 h-6" />
                   </div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-3 tracking-tight">Eng Translation</h3>
+                <h3 className="text-xl font-semibold text-slate-900 mb-3 tracking-tight">Engineering Translation</h3>
                 <p className="text-slate-600 leading-relaxed">Turning vague legal requirements into clear product specs.</p>
               </div>
 
@@ -215,7 +215,7 @@ export default function Home() {
                     <ChevronRight className="w-6 h-6" />
                     </div>
                     <h3 className="text-2xl font-semibold text-slate-900 mb-3 tracking-tight">System Design</h3>
-                    <p className="text-slate-600 text-lg leading-relaxed max-w-lg">Clear decision routing and oversight structures that scale as you grow, ensuring you don&apos;t accumulate technical or regulatory debt.</p>
+                    <p className="text-slate-600 text-lg leading-relaxed max-w-lg">Governance systems that scale with your product — without slowing down engineering.</p>
                 </div>
                 <div className="absolute left-0 bottom-0 w-64 h-64 bg-gradient-to-tr from-slate-200/40 to-transparent rounded-tr-[100px] -translate-x-10 translate-y-10 group-hover:-translate-x-5 group-hover:translate-y-5 transition-transform duration-500"></div>
               </div>
