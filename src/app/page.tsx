@@ -80,11 +80,7 @@ export default function Home() {
                 <div className="pt-8 border-t border-slate-100 flex flex-col sm:flex-row gap-6 text-sm text-slate-500">
                   <div className="flex items-center gap-2">
                     <Award className="w-5 h-5 text-blue-600" />
-                    <span>Former Head of AI Risk</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Terminal className="w-5 h-5 text-blue-600" />
-                    <span>Certified AI Auditor</span>
+                    <span>Certified Information Privacy Professional (IAPP)</span>
                   </div>
                 </div>
               </div>
