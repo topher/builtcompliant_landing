@@ -65,7 +65,7 @@ export default function Home() {
                     href="#contact"
                     className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white transition-all bg-slate-900 rounded-lg hover:bg-slate-800 hover:shadow-xl hover:-translate-y-0.5 group"
                   >
-                    Book a Call
+                    Let's Chat
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
                   <a

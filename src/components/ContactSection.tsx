@@ -122,7 +122,7 @@ export default function ContactSection() {
                 type="submit" 
                 className="w-full px-8 py-4 bg-slate-900 text-white font-semibold rounded-xl hover:bg-blue-600 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-slate-900/20"
               >
-                Get Your Compliance Reality Check
+                Book a Call
                 <Send size={16} />
               </button>
               <p className="text-center text-xs text-slate-400 mt-4">
