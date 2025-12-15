@@ -10,8 +10,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold" style={{color: '#1A365D'}}>
-                Built Compliant <span style={{color: '#003399'}}>✓</span>
+              <h1 className="text-2xl font-bold text-[#1A365D]">
+                Built Compliant <span className="text-[#003399]">✓</span>
               </h1>
             </div>
             
@@ -326,8 +326,8 @@ export default function Home() {
       <footer className="bg-white border-t border-slate-100 py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center">
-            <span className="text-xl font-bold" style={{color: '#1A365D'}}>
-              Built Compliant <span style={{color: '#003399'}}>✓</span>
+            <span className="text-xl font-bold text-[#1A365D]">
+              Built Compliant <span className="text-[#003399]">✓</span>
             </span>
           </div>
           <div className="text-sm text-slate-400">
