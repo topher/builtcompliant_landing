@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/hero-photo.jpeg',
         width: 1200,
         height: 630,
-        alt: 'Built Compliant - AI Governance Consulting',
+        alt: 'Chris Williams - Built Compliant AI Governance Consulting',
         type: 'image/jpeg',
       },
     ],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Built Compliant - Governance That Closes Deals",
     description: "We help AI companies build governance systems that pass procurement and due diligence. Technical PM, CIPP/E certified, translating regulatory requirements into engineering specs.",
     creator: "@cafwilliams",
-    images: ['/og-image.jpg'],
+    images: ['/hero-photo.jpeg'],
   },
   robots: {
     index: true,
